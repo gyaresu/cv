@@ -19,7 +19,7 @@ mode        : selfcontained # {standalone, draft}
 --- .class #id 
 
 ## Slide 2
-```{r qplot, fig.width=5, fig.height=5, message=FALSE}
+```{r qplot, fig.width=10, fig.height=3, message=FALSE}
 library(ggplot2)
 qplot(speed, dist, data=cars) + 
   geom_smooth()
